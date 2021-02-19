@@ -1,25 +1,50 @@
-<section class="container px-4 py-24 mx-auto">
-  <div class="w-full mx-auto text-left md:w-11/12 xl:w-8/12 md:text-center">
-    <h1 class="mb-3 text-4xl font-bold leading-tight text-gray-900 md:text-5xl md:font-extrabold">
-      Thank you for using Boilerplate Generator
+<main class="w-full container block px-4 py-20 mx-auto text-center">
+    <h1 class="mb-6 text-2xl uppercase font-mono font-bold leading-tight text-blue-900 md:text-3xl md:font-extrabold">
+      ¿Estás lista para empezar tu carrera en tecnología?
     </h1>
-    <p class="mb-6 text-lg text-gray-600 md:text-xl">
-      You are now ready to start or continue your journey to greatness.
+    <p class="mb-4 text-lg text-gray-800 md:text-xl">
+      ¡Te damos la bienvenida a Latinas Code Camp!
     </p>
-
-    <form phx-change="suggest" phx-submit="search">
-      <label class="form-label">
-        <div class="form-append">
-          <input class="form-input" type="text" name="q" value="<%= @query %>" placeholder="Live dependency search" list="results" autocomplete="off"/>
-          <button type="submit" class="btn btn-dark" phx-disable-with="Searching...">Go to Hexdocs</button>
-        </div>
-      </label>
-
-      <datalist id="results">
-        <%= for {app, _vsn} <- @results do %>
-          <option value="<%= app %>"><%= app %></option>
-        <% end %>
-      </datalist>
-    </form>
-  </div>
+    <p class="mb-6 text-lg text-gray-800 md:text-xl">
+      Un bootcamp hecho para personas que se identifiquen como mujer en América Latina.
+    </p>
+</main>
+<section class="flex flex-row flex-wrap justify-center place-items-center w-full py-6 bg-purple-200 font-mono text-blue-900 font-bold text-2xl ">
+  <h3 class="min-w-full text-center text-blue-900">PATROCINA</h3>
+  <article class="flex flex-col justify-center text-center md:w-1/4 md:flex-wrap">
+    <img class="" src="images/latinas_codecamp.png" alt="">
+    <p>TechnoLatinas</p>
+  </article>
+  <article class="flex flex-col justify-center text-center md:w-1/4 md:flex-wrap">
+    <img src="images/latinas_codecamp.png" alt="">
+    HackTabasco
+  </article>
+  <article class="flex flex-col justify-center text-center md:w-1/4 md:flex-wrap">
+    <img src="images/latinas_codecamp.png" alt="">
+    T-Tabasco
+  </article>
+</section>
+<h3 class="py-14 md:pt-24 md:pb-8 px-2 text-2xl text-center uppercase font-bold leading-tight text-blue-900">Durante el bootcamp aprenderás</h3>
+<section class="flex flex-row flex-wrap place-content-center w-full pb-20 md:justify-evenly">
+  <article class="w-11/12 px-4 flex flex-col flex-wrap my-4 md:flex-row md:w-1/4">
+    <span class="flex items-center fa-4x">
+      <i class="fab fa-html5 text-la-green"></i>
+      <h5 class="pl-4 text-blue-900 text-justify text-2xl font-mono font-bold">HTML</h5>
+    </span>
+    <p class="block text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora aspernatur incidunt quidem tenetur saepe dolorem iusto, officiis deleniti porro praesentium optio sapiente exercitationem?</p>
+  </article>
+  <article class="w-11/12 px-4 flex flex-col flex-wrap my-4 md:flex-row md:w-1/4">
+    <span class="flex items-center fa-4x">
+      <i class="fab fa-css3-alt text-la-green"></i>
+      <h5 class="pl-4 text-blue-900 text-justify text-2xl font-mono font-bold">CSS</h5>
+    </span>
+    <p class="block text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora aspernatur incidunt quidem tenetur saepe dolorem iusto, officiis deleniti porro praesentium optio sapiente exercitationem?</p>
+  </article>
+  <article class="w-11/12 px-4 flex flex-col flex-wrap my-4 md:flex-row md:w-1/4">
+    <span class="flex items-center fa-4x">
+      <i class="fab fa-js-square text-la-green"></i>
+      <h5 class="pl-4 text-blue-900 text-justify text-2xl font-mono font-bold">JavaScript</h5>
+    </span>
+    <p class="block text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora aspernatur incidunt quidem tenetur saepe dolorem iusto, officiis deleniti porro praesentium optio sapiente exercitationem?</p>
+  </article>
 </section>

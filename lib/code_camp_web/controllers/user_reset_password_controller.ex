@@ -21,7 +21,7 @@ defmodule CodeCampWeb.UserResetPasswordController do
     conn
     |> put_flash(
       :info,
-      "If your email is in our system, you will receive instructions to reset your password shortly."
+      "Si tu correo electrónico se encuentra en nuestro sistema, recibirás instrucciones para restablecer tu contraseña brevemente."
     )
     |> redirect(to: "/")
   end
@@ -51,7 +51,7 @@ defmodule CodeCampWeb.UserResetPasswordController do
       conn |> assign(:user, user) |> assign(:token, token)
     else
       conn
-      |> put_flash(:error, "Reset password link is invalid or it has expired.")
+      |> put_flash(:error, "El enlace para restablecer tu contraseña es inválido o ha expirado.")
       |> redirect(to: "/")
       |> halt()
     end

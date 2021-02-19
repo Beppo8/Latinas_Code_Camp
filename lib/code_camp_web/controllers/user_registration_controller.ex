@@ -20,7 +20,7 @@ defmodule CodeCampWeb.UserRegistrationController do
           )
 
         conn
-        |> put_flash(:info, "Usuario creado satisfactoriamente")
+        |> put_flash(:info, "Usuario creado exitosamente.")
         |> UserAuth.log_in_user(user)
 
       {:error, %Ecto.Changeset{} = changeset} ->

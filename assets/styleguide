@@ -1,0 +1,14 @@
+Latinas Code Camp Styleguide
+
+--
+
+Background colors:
+- Light gray (body): #F3F4F6 / gray-100
+- Dark gray (header, footer): #374151 / gray-700
+- Light purple (highlight sections): #DDD6FE / purple-200
+- Light green (icons, buttons): #08F09E / la-green
+
+Text colors:
+- Light green (icons, highlights): #08F09E / la-green
+- Dark blue (titles): #1E3A8A / blue-900
+- Dark gray (body): #1F2937 / gray-800
