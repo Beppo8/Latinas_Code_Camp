@@ -1,0 +1,33 @@
+<h3 class="py-14 md:pt-24 md:pb-8 px-2 text-2xl text-center uppercase font-bold leading-tight text-blue-900">Mentores</h3>
+<section class="flex flex-row flex-wrap place-content-center w-full pb-20 md:justify-evenly">
+  <article class="w-11/12 p-4 flex flex-col flex-wrap my-4 md:flex-row md:w-1/4 border-2 rounded border-gray-800">
+    <img src="/images/latinas_codecamp.png" alt="mentor">
+    <h5 class="pl-4 text-blue-900 text-justify text-2xl font-mono font-bold">HTML</h5>
+    <p class="block text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora aspernatur incidunt quidem tenetur saepe dolorem iusto, officiis deleniti porro praesentium optio sapiente exercitationem?</p>
+  </article>
+  <article class="w-11/12 p-4 flex flex-col flex-wrap my-4 md:flex-row md:w-1/4 border-2 rounded border-gray-800">
+    <img src="/images/latinas_codecamp.png" alt="mentor">
+    <h5 class="pl-4 text-blue-900 text-justify text-2xl font-mono font-bold">HTML</h5>
+    <p class="block text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora aspernatur incidunt quidem tenetur saepe dolorem iusto, officiis deleniti porro praesentium optio sapiente exercitationem?</p>
+  </article>
+  <article class="w-11/12 p-4 flex flex-col flex-wrap my-4 md:flex-row md:w-1/4 border-2 rounded border-gray-800">
+    <img src="/images/latinas_codecamp.png" alt="mentor">
+    <h5 class="pl-4 text-blue-900 text-justify text-2xl font-mono font-bold">HTML</h5>
+    <p class="block text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora aspernatur incidunt quidem tenetur saepe dolorem iusto, officiis deleniti porro praesentium optio sapiente exercitationem?</p>
+  </article>
+  <article class="w-11/12 p-4 flex flex-col flex-wrap my-4 md:flex-row md:w-1/4 border-2 rounded border-gray-800">
+    <img src="/images/latinas_codecamp.png" alt="mentor">
+    <h5 class="pl-4 text-blue-900 text-justify text-2xl font-mono font-bold">HTML</h5>
+    <p class="block text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora aspernatur incidunt quidem tenetur saepe dolorem iusto, officiis deleniti porro praesentium optio sapiente exercitationem?</p>
+  </article>
+  <article class="w-11/12 p-4 flex flex-col flex-wrap my-4 md:flex-row md:w-1/4 border-2 rounded border-gray-800">
+    <img src="/images/latinas_codecamp.png" alt="mentor">
+    <h5 class="pl-4 text-blue-900 text-justify text-2xl font-mono font-bold">HTML</h5>
+    <p class="block text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora aspernatur incidunt quidem tenetur saepe dolorem iusto, officiis deleniti porro praesentium optio sapiente exercitationem?</p>
+  </article>
+  <article class="w-11/12 p-4 flex flex-col flex-wrap my-4 md:flex-row md:w-1/4 border-2 rounded border-gray-800">
+    <img src="/images/latinas_codecamp.png" alt="mentor">
+    <h5 class="pl-4 text-blue-900 text-justify text-2xl font-mono font-bold">HTML</h5>
+    <p class="block text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora aspernatur incidunt quidem tenetur saepe dolorem iusto, officiis deleniti porro praesentium optio sapiente exercitationem?</p>
+  </article>
+</section>
