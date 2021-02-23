@@ -40,52 +40,44 @@
   @apply flex;
 
   .sidebar {
-    @apply w-48 bg-green-800 pt-4 pb-4 text-green-300;
+    @apply w-48 bg-gray-800 py-4 text-purple-200;
 
     nav {
-      @apply flex-1 px-2 bg-green-800;
+      @apply flex-1 px-2 bg-gray-800;
 
       .active {
-        @apply text-white bg-green-900;
+        @apply bg-la-green text-gray-900;
       }
 
       a {
-        @apply text-sm leading-5 font-medium flex items-center px-2 py-3 rounded-md mb-2;
+        @apply text-lg leading-5 font-bold flex items-center px-2 py-3 rounded mb-2;
       }
 
       a:hover {
-        @apply text-white bg-green-900;
+        @apply bg-purple-200 text-gray-900;
       }
 
       img {
-        @apply mr-2 h-6 w-6 text-green-400;
+        @apply mr-2 h-6 w-6;
       }
     }
   }
 
   .main {
-    @apply flex flex-1;
+    @apply flex flex-grow;
 
     .wrapper {
-      @apply flex-1 max-w-2xl mx-auto px-6;
-    }
-
-    .up {
-      @apply px-3 py-1 rounded-md text-xs font-medium leading-5 bg-green-200 text-green-800 rounded-full;
-    }
-
-    .down {
-      @apply px-3 py-1 rounded-md text-xs font-medium leading-5 bg-red-200 text-red-800 rounded-full;
+      @apply flex-grow;
     }
 
     .card {
-      @apply bg-white shadow overflow-hidden rounded-lg;
+      @apply bg-purple-200 shadow overflow-hidden h-full;
 
       .header {
-        @apply px-6 py-5 border-b border-gray-200 flex items-center flex-wrap justify-between;
+        @apply px-6 py-5 border-b-2 border-gray-100 flex items-center flex-wrap justify-between;
 
         h2 {
-          @apply text-xl leading-6 font-semibold text-indigo-800;
+          @apply px-2 text-xl leading-6 font-semibold text-blue-900;
         }
       }
 
@@ -93,18 +85,22 @@
         @apply px-8 py-4;
 
         h3 {
-          @apply mt-8 text-base leading-5 font-medium text-gray-500 mb-2;
+          @apply mt-8 text-base leading-5 font-medium text-gray-800 mb-2;
         }
 
         .row {
           @apply flex flex-wrap items-center justify-between text-base leading-5 font-medium text-gray-500;
         }
 
+        .socials {
+          @apply mt-8; 
+        }
+
         .person {
           @apply flex items-baseline justify-between;
 
           img {
-            @apply mr-3 h-60 w-60 text-indigo-400;
+            @apply mr-3 max-h-60 w-auto rounded;
           }
         }
 

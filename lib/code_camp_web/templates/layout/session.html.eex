@@ -9,7 +9,7 @@
     <link phx-track-static rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
     <script defer phx-track-static type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </head>
-  <body class="flex flex-col h-full bg-gray-100">
+  <body class="flex flex-col h-full bg-gray-100 font-IBM">
     <header>
       <nav class="flex flex-wrap items-center justify-between py-2 px-4 bg-gray-700">
         <a class="inline-block mr-4 py-1 text-xl text-gray-300" href="/">
@@ -23,7 +23,7 @@
       <p class="alert alert-danger alert-left toast" role="alert"><%= get_flash(@conn, :error) %></p>
 
       <div class="flex justify-center my-2 p-2">
-        <div class="card bg-purple-200 border-gray-800 w-full max-w-xs">
+        <div class="card bg-purple-200 shadow w-full max-w-xs">
           <div class="card-body">
             <%= @inner_content %>
           </div>

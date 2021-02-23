@@ -1,1 +1,11 @@
-<h1>About us</h1>
+<main class="w-full container block px-4 py-20 mx-auto text-center">
+    <h1 class="mb-6 text-2xl uppercase font-mono font-bold leading-tight text-blue-900 md:text-3xl md:font-extrabold">
+      ACERCA DE NOSOTRAS
+    </h1>
+    <p class="mb-4 text-lg text-gray-800 md:text-xl">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam officiis impedit quisquam velit praesentium expedita neque odio aliquid non minima modi blanditiis, nobis esse debitis cupiditate dolorum saepe eveniet repellat?
+      Delectus omnis impedit voluptate inventore nam animi voluptatibus? Velit vel voluptate beatae vitae magni, a incidunt perspiciatis fuga ratione aspernatur. Molestiae minus nemo ea eveniet et reiciendis aperiam, sunt quia.
+      Nulla, praesentium officiis. Ea ipsam, reprehenderit laboriosam rerum totam, enim saepe similique modi itaque ipsa vero cumque quod autem, corporis rem dolorum! Mollitia quis aspernatur commodi libero modi hic ab!
+      Eius, dolores? Quos saepe quas nobis dolore quidem nam. Excepturi commodi quis, pariatur molestiae tenetur consectetur, perferendis mollitia in quibusdam quas blanditiis accusantium consequuntur unde atque dicta reprehenderit placeat aliquid.
+    </p>
+</main>

@@ -1,0 +1,366 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210222.224505.11543.0.001.json",
+    "dumpEventTime": "2021-02-22T22:45:05Z",
+    "dumpEventTimeStamp": "1614051905952",
+    "processId": 11543,
+    "cwd": "/home/msboneu/latinas/Latinas_Code_Camp/assets",
+    "commandLine": [
+      "/home/msboneu/.nvm/versions/node/v12.13.0/bin/node",
+      "node_modules/webpack/bin/webpack.js",
+      "--mode",
+      "development",
+      "--watch-stdin"
+    ],
+    "nodejsVersion": "v12.13.0",
+    "glibcVersionRuntime": "2.31",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.4.0-65-generic",
+    "osVersion": "#73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1799,
+        "user": 13225300,
+        "nice": 34200,
+        "sys": 12274100,
+        "idle": 56855600,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "enp0s3",
+        "internal": false,
+        "mac": "08:00:27:86:ad:3f",
+        "address": "10.0.2.15",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "enp0s3",
+        "internal": false,
+        "mac": "08:00:27:86:ad:3f",
+        "address": "fe80::a00:27ff:fe86:ad3f",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      }
+    ],
+    "host": "msboneu-VirtualBox"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b027f5",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x00000000009d9fc3",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b37dbe",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b38139",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce34f5",
+      "symbol": " [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce3b86",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cefa1a",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf0925",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf3338",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cb9c67",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType) [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000fefcf9",
+      "symbol": "v8::internal::Runtime_AllocateInOldGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x00000000013725d9",
+      "symbol": " [/home/msboneu/.nvm/versions/node/v12.13.0/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2169434112,
+    "totalCommittedMemory": 2159637280,
+    "usedMemory": 2127531360,
+    "availableMemory": 46381992,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 32568,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 16777216,
+        "committedMemory": 7545688,
+        "capacity": 8379904,
+        "used": 535136,
+        "available": 7844768
+      },
+      "old_space": {
+        "memorySize": 2006036480,
+        "committedMemory": 2005755056,
+        "capacity": 1984515128,
+        "used": 1982968568,
+        "available": 1546560
+      },
+      "code_space": {
+        "memorySize": 1474560,
+        "committedMemory": 1420768,
+        "capacity": 1300352,
+        "used": 1300352,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 3674112,
+        "committedMemory": 3673600,
+        "capacity": 1627760,
+        "used": 1627760,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 140587008,
+        "committedMemory": 140587008,
+        "capacity": 140516528,
+        "used": 140516528,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550720,
+        "used": 550720,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 8379904,
+        "used": 0,
+        "available": 8379904
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 256.935,
+    "kernelCpuSeconds": 212.34,
+    "cpuConsumptionPercent": 21.1671,
+    "maxRss": 4123975680,
+    "pageFaults": {
+      "IORequired": 5,
+      "IONotRequired": 4777559
+    },
+    "fsActivity": {
+      "reads": 1040,
+      "writes": 627776
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 97.2288,
+    "kernelCpuSeconds": 87.531,
+    "cpuConsumptionPercent": 8.33378,
+    "fsActivity": {
+      "reads": 952,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ASDF_DIR": "/home/msboneu/.asdf",
+    "COLORTERM": "truecolor",
+    "BINDIR": "/usr/lib/erlang/erts-11.1.7/bin",
+    "DESKTOP_SESSION": "xfce",
+    "DEFAULTS_PATH": "/usr/share/gconf/xfce.default.path",
+    "EMU": "beam",
+    "DISPLAY": ":0.0",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "GDM_LANG": "en_US",
+    "HOME": "/home/msboneu",
+    "LANG": "en_US.UTF-8",
+    "GTK_MODULES": ":canberra-gtk-module",
+    "LC_ADDRESS": "es_CO.UTF-8",
+    "LC_IDENTIFICATION": "es_CO.UTF-8",
+    "LC_NAME": "es_CO.UTF-8",
+    "LC_MONETARY": "es_CO.UTF-8",
+    "LC_MEASUREMENT": "es_CO.UTF-8",
+    "LANGUAGE": "en_US",
+    "GDMSESSION": "xfce",
+    "LC_PAPER": "es_CO.UTF-8",
+    "LC_TIME": "es_CO.UTF-8",
+    "MANDATORY_PATH": "/usr/share/gconf/xfce.mandatory.path",
+    "LOGNAME": "msboneu",
+    "LC_TELEPHONE": "es_CO.UTF-8",
+    "NVM_BIN": "/home/msboneu/.nvm/versions/node/v12.13.0/bin",
+    "MIX_HOME": "/home/msboneu/.asdf/installs/elixir/1.11.3/.mix",
+    "NVM_INC": "/home/msboneu/.nvm/versions/node/v12.13.0/include/node",
+    "NVM_DIR": "/home/msboneu/.nvm",
+    "NVM_CD_FLAGS": "",
+    "MIX_ARCHIVES": "/home/msboneu/.asdf/installs/elixir/1.11.3/.mix/archives",
+    "PANEL_GDK_CORE_DEVICE_EVENTS": "0",
+    "PROGNAME": "erl",
+    "PWD": "/home/msboneu/latinas/Latinas_Code_Camp",
+    "PATH": "/usr/lib/erlang/erts-11.1.7/bin:/usr/lib/erlang/bin:/home/msboneu/.asdf/plugins/elixir/shims:/home/msboneu/.asdf/installs/elixir/1.11.3/bin:/home/msboneu/.asdf/installs/elixir/1.11.3/.mix/escripts:/home/msboneu/.nvm/versions/node/v12.13.0/bin:/home/msboneu/.asdf/shims:/home/msboneu/.asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "ROOTDIR": "/usr/lib/erlang",
+    "QT_QPA_PLATFORMTHEME": "qt5ct",
+    "SHLVL": "2",
+    "SHELL": "/bin/bash",
+    "SESSION_MANAGER": "local/msboneu-VirtualBox:@/tmp/.ICE-unix/2605,unix/msboneu-VirtualBox:/tmp/.ICE-unix/2605",
+    "QT_ACCESSIBILITY": "1",
+    "SSH_AUTH_SOCK": "/tmp/ssh-dIB3qzZGaioy/agent.2494",
+    "USER": "msboneu",
+    "TERM": "xterm-256color",
+    "XAUTHORITY": "/home/msboneu/.Xauthority",
+    "WINDOWID": "39845891",
+    "XDG_CURRENT_DESKTOP": "XFCE",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg",
+    "XDG_MENU_PREFIX": "xfce-",
+    "XDG_GREETER_DATA_DIR": "/var/lib/lightdm-data/msboneu",
+    "XDG_SEAT_PATH": "/org/freedesktop/DisplayManager/Seat0",
+    "XDG_SEAT": "seat0",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "XDG_SESSION_ID": "c1",
+    "XDG_SESSION_DESKTOP": "xfce",
+    "XDG_SESSION_TYPE": "x11",
+    "XDG_VTNR": "7",
+    "XDG_SESSION_PATH": "/org/freedesktop/DisplayManager/Session0",
+    "XDG_SESSION_CLASS": "user",
+    "XDG_DATA_DIRS": "/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share",
+    "VTE_VERSION": "6003",
+    "SSH_AGENT_PID": "2587",
+    "OLDPWD": "/home/msboneu",
+    "LC_NUMERIC": "es_CO.UTF-8"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 67108864,
+      "hard": 67108864
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 35917,
+      "hard": 35917
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2",
+    "/home/msboneu/latinas/Latinas_Code_Camp/assets/node_modules/node-sass/vendor/linux-x64-72/binding.node"
+  ]
+}

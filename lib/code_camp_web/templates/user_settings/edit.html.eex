@@ -1,11 +1,11 @@
-<div class="flex flex-wrap">
-  <div class="w-full md:w-2/3">
-    <div class="shadow card">
+<div class="flex flex-wrap justify-center">
+  <div class="w-full md:w-2/5">
+    <div class="shadow card bg-purple-200">
       <div class="card-header">
-        <h5 class="card-title">Configuración</h5>
+        <h5 class="px-5 text-lg leading-normal text-center w-full">Configuración</h5>
       </div>
       <div class="card-body prose">
-        <h4>Cambiar correo electrónico</h4>
+        <h4 class="mb-2">Cambiar correo electrónico</h4>
 
         <%= form_for @email_changeset, Routes.user_settings_path(@conn, :update), fn f -> %>
           <%= if @email_changeset.action do %>
@@ -27,11 +27,11 @@
           </div>
 
           <div class="mt-8 mb-2">
-            <%= submit "Cambiar correo electrónico", class: "btn btn-primary btn-sm" %>
+            <%= submit "Cambiar correo electrónico", class: "text-gray-800 bg-la-green btn btn-sm btn-link" %>
           </div>
         <% end %>
 
-        <h4>Cambiar contraseña</h4>
+        <h4 class="mt-6 mb-2">Cambiar contraseña</h4>
 
         <%= form_for @password_changeset, Routes.user_settings_path(@conn, :update), fn f -> %>
           <%= if @password_changeset.action do %>
@@ -59,7 +59,7 @@
           </div>
 
           <div class="mt-8 mb-2">
-            <%= submit "Cambiar contraseña", class: "btn btn-primary btn-sm" %>
+            <%= submit "Cambiar contraseña", class: "text-gray-800 bg-la-green btn btn-sm btn-link" %>
           </div>
         <% end %>
 
