@@ -76,6 +76,7 @@ defmodule CodeCampWeb.Router do
     get "/users/confirm", UserConfirmationController, :new
     post "/users/confirm", UserConfirmationController, :create
     get "/users/confirm/:token", UserConfirmationController, :confirm
+    get "/aboutus", AboutController, :index
   end
 
   if Mix.env == :dev do

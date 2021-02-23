@@ -20,6 +20,7 @@
           <div class="hidden md:inline-flex space-x-1">
             <%= link "Inicio", to: Routes.page_path(@conn, :index), class: "uppercase text-lg font-bold text-la-green btn btn-sm btn-link hover:text-gray-800" %>
             <%= link "Profesores", to: Routes.teacher_path(@conn, :index), class: "uppercase text-lg font-bold text-la-green btn btn-sm btn-link hover:text-gray-800" %>
+            <%= link "Acerca de nosotras", to: Routes.about_path(@conn, :index), class: "uppercase text-lg font-bold text-la-green btn btn-sm btn-link hover:text-gray-800" %>
           </div>
           <%= render "_user_menu.html", assigns %>
           <div class="inline-flex md:hidden" x-data="{ open: false }">
@@ -63,6 +64,7 @@
               </button>
               <%= link "Inicio", to: Routes.page_path(@conn, :index), class: "btn btn-link w-full" %>
               <%= link "Profesores", to: Routes.teacher_path(@conn, :index), class: "btn btn-link w-full" %>
+              <%= link "Acerca de nosotras", to: Routes.about_path(@conn, :index), class: "btn btn-link w-full" %>
             </div>
           </div>
         </div>
