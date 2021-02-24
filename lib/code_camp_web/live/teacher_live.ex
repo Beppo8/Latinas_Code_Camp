@@ -35,10 +35,10 @@ defmodule CodeCampWeb.TeacherLive do
 
   def render(assigns) do
     ~L"""
-    <h1 class="pb-8 px-2 text-2xl text-center uppercase font-bold leading-tight text-blue-900">Tus profesores</h1>
-    <div id="teachers">
-      <div class="sidebar">
-        <nav>
+    <main class="flex w-full mx-auto md:w-3/5 md:mb-14">
+      <aside class="w-48 bg-purple-200 py-4 rounded-l border-gray-100 border-r-2">
+        <h1 class="pb-6 px-2 text-2xl text-center uppercase font-bold leading-tight text-blue-900">Tus profesores</h1>
+        <nav id="nav" class="flex-1 px-2 bg-purple-200">
           <%= for teacher <- @teachers do %>
             <div>
               <%= live_patch link_body(teacher),
@@ -51,37 +51,34 @@ defmodule CodeCampWeb.TeacherLive do
             </div>
           <% end %>
         </nav>
-      </div>
-      <div class="main">
-        <div class="wrapper">
-          <div class="card">
-            <div class="header">
-              <h2><%= @selected_teacher.name %> <%= @selected_teacher.surname %></h2>
+      </aside>
+      <article class="flex flex-grow">
+        <div class="flex-grow">
+          <div class="bg-purple-200 shadow overflow-hidden h-full rounded-r">
+            <div class="px-6 py-5 border-b-2 border-gray-100 flex items-center flex-wrap justify-between">
+              <h2 class="px-2 text-xl leading-6 font-semibold text-blue-900"><%= @selected_teacher.name %> <%= @selected_teacher.surname %></h2>
               <span class="<%=  %>">
                 <%=  %>
               </span>
             </div>
-            <div class="body">
-              <div class="row">
-                <div class="person">
-                  <img src="<%= @selected_teacher.image%>">
+            <div class="px-8 py-4">
+              <div class="flex flex-wrap items-center justify-between text-base leading-5 font-medium text-gray-500">
+                <div class="flex items-baseline justify-between">
+                  <img class="mr-3 max-h-60 w-auto rounded" src="<%= @selected_teacher.image%>">
                   <span>
                     <%=  %>
                   </span>
                 </div>
               </div>
-           <!--   <h3>
-                Twitter
-              </h3> -->
-              <div class="socials">
+              <div class="mt-8">
               <button class="btn btn-icon btn-twitter mr-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></button>
                 @<%= @selected_teacher.twitter %>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </article>
+    </main>
     """
   end
 
@@ -89,7 +86,7 @@ defmodule CodeCampWeb.TeacherLive do
     assigns = %{name: teacher.name}
 
     ~L"""
-      <img src="/images/profes.png" alt="">
+      <i class="fas fa-chalkboard-teacher mr-2"></i>
       <%= @name %>
     """
   end
