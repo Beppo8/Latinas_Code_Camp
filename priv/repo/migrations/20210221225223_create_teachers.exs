@@ -7,6 +7,7 @@ defmodule CodeCamp.Repo.Migrations.CreateTeachers do
       add :name, :string
       add :surname, :string
       add :twitter, :string
+      add :twitter_link, :string
 
       timestamps()
     end

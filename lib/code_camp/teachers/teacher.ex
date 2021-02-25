@@ -7,14 +7,15 @@ defmodule CodeCamp.Teachers.Teacher do
     field :name, :string
     field :surname, :string
     field :twitter, :string
+    field :twitter_link, :string
 
     timestamps()
   end
 
   def changeset(teacher, attrs) do
     teacher
-    |> cast(attrs, [:image, :name, :surname, :twitter])
-    |> validate_required([:image, :name, :surname, :twitter])
+    |> cast(attrs, [:image, :name, :surname, :twitter, :twitter_link])
+    |> validate_required([:image, :name, :surname, :twitter, :twitter_link])
   end
 
 

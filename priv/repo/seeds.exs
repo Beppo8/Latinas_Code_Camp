@@ -14,65 +14,79 @@ alias CodeCamp.Repo
 alias CodeCamp.Teachers.Teacher
 
 %Teacher{
+  image: "/images/profes/sam-belmor.jpg",
   name: "Sam",
   surname: "Belmor",
   twitter: "sambelmor",
-  image: "/images/profes/sam-belmor.jpg"
+  twitter_link: "https://twitter.com/sambelmor",
 }
 |> Repo.insert!()
 
 %Teacher{
+  image: "/images/profes/angelito.jpg",
   name: "Angelito",
   surname: "",
   twitter: "angelittovzn",
-  image: "/images/profes/angelito.jpg"
+  twitter_link: "https://twitter.com/angelittovzn",
+
 }
 |> Repo.insert!()
 
 %Teacher{
+  image: "/images/profes/valeria-vichy.jpg",
   name: "Valeria",
   surname: "Vichy",
   twitter: "valvitch",
-  image: "/images/profes/valeria-vichy.jpg"
+  twitter_link: "https://twitter.com/valvitch",
+
 }
 |> Repo.insert!()
 
 %Teacher{
+  image: "/images/profes/karen-molina.jpg",
   name: "Karen",
   surname: "Molina",
   twitter: "voidrizoma",
-  image: "/images/profes/karen-molina.jpg"
+  twitter_link: "https://twitter.com/voidrizoma",
+
 }
 |> Repo.insert!()
 
 %Teacher{
+  image: "/images/profes/diana-nerd.png",
   name: "Diana",
   surname: "Martinez",
   twitter: "diana_nerd",
-  image: "/images/profes/diana-nerd.png"
+  twitter_link: "https://twitter.com/diana_nerd",
+
 }
 |> Repo.insert!()
 
 %Teacher{
+  image: "/images/profes/alex-camacho.jpg",
   name: "Alex",
   surname: "Camacho",
   twitter: "alexcamachogz",
-  image: "/images/profes/alex-camacho.jpg"
+  twitter_link: "https://twitter.com/alexcamachogz",
+
 }
 |> Repo.insert!()
 
 %Teacher{
+  image: "/images/profes/sebastian.jpg",
   name: "Sebastian",
   surname: "Joya",
   twitter: "juansjoya",
-  image: "/images/profes/sebastian.jpg"
+  twitter_link: "https://twitter.com/alexcamachogz",
 }
 |> Repo.insert!()
 
 %Teacher{
+  image: "/images/profes/angelo.jpg",
   name: "Angelo",
   surname: "Leva",
   twitter: "angelolev",
-  image: "/images/profes/angelo.jpg"
+  twitter_link: "https://twitter.com/angelolev",
+
 }
 |> Repo.insert!()
