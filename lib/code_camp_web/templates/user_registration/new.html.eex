@@ -7,13 +7,13 @@
   <% end %>
 
   <div class="my-4">
-    <%= label f, :email, class: "form-label" %>
+    <%= label f, :correo, class: "form-label" %>
     <%= text_input f, :email, required: true, class: "form-input" %>
     <%= error_tag f, :email %>
   </div>
 
   <div class="mb-4">
-    <%= label f, :password, class: "form-label" %>
+    <%= label f, :contraseña, class: "form-label" %>
     <%= password_input f, :password, required: true, class: "form-input" %>
     <%= error_tag f, :password %>
   </div>

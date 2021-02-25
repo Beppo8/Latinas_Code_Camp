@@ -7,12 +7,12 @@
   <% end %>
 
   <div class="mt-4 mb-4">
-    <%= label f, :email, class: "form-label" %>
+    <%= label f, :correo, class: "form-label" %>
     <%= text_input f, :email, required: true, class: "form-input" %>
   </div>
 
   <div class="mb-4">
-    <%= label f, :password, class: "form-label" %>
+    <%= label f, :contraseña, class: "form-label" %>
     <%= password_input f, :password, required: true, class: "form-input" %>
   </div>
 
