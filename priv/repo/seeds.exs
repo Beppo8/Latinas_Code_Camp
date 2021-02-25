@@ -77,7 +77,7 @@ alias CodeCamp.Teachers.Teacher
   name: "Sebastian",
   surname: "Joya",
   twitter: "juansjoya",
-  twitter_link: "https://twitter.com/alexcamachogz",
+  twitter_link: "https://twitter.com/juansjoya",
 }
 |> Repo.insert!()
 
