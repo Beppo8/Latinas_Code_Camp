@@ -39,7 +39,7 @@ defmodule CodeCamp.Accounts.User do
   defp validate_email(changeset) do
     changeset
     |> validate_required([:email])
-    |> validate_format(:email, ~r/^[^\s]+@[^\s]+$/, message: "must have the @ sign and no spaces")
+    |> validate_format(:email, ~r/^[^\s]+@[^\s]+$/, message: "debe tener el signo @ y no debe tener espacios")
     |> validate_length(:email, max: 160)
     |> unsafe_validate_unique(:email, CodeCamp.Repo)
     |> unique_constraint(:email)
@@ -49,9 +49,9 @@ defmodule CodeCamp.Accounts.User do
     changeset
     |> validate_required([:password])
     |> validate_length(:password, min: 8, max: 80)
-    # |> validate_format(:password, ~r/[a-z]/, message: "at least one lower case character")
-    # |> validate_format(:password, ~r/[A-Z]/, message: "at least one upper case character")
-    # |> validate_format(:password, ~r/[!?@#$%^&*_0-9]/, message: "at least one digit or punctuation character")
+    # |> validate_format(:password, ~r/[a-z]/, message: "debe tener al menos una letra minúscula")
+    # |> validate_format(:password, ~r/[A-Z]/, message: "debe tener al menos una letra mayúscula")
+    # |> validate_format(:password, ~r/[!?@#$%^&*_0-9]/, message: "debe tener al menos un número o símbolo")
     |> maybe_hash_password(opts)
   end
 
@@ -79,7 +79,7 @@ defmodule CodeCamp.Accounts.User do
     |> validate_email()
     |> case do
       %{changes: %{email: _}} = changeset -> changeset
-      %{} = changeset -> add_error(changeset, :email, "did not change")
+      %{} = changeset -> add_error(changeset, :email, "no pudo ser cambiado")
     end
   end
 
@@ -98,7 +98,7 @@ defmodule CodeCamp.Accounts.User do
   def password_changeset(user, attrs, opts \\ []) do
     user
     |> cast(attrs, [:password])
-    |> validate_confirmation(:password, message: "does not match password")
+    |> validate_confirmation(:password, message: "Las contraseñas no coinciden")
     |> validate_password(opts)
   end
 
@@ -133,7 +133,7 @@ defmodule CodeCamp.Accounts.User do
     if valid_password?(changeset.data, password) do
       changeset
     else
-      add_error(changeset, :current_password, "is not valid")
+      add_error(changeset, :current_password, "no es válida")
     end
   end
 end

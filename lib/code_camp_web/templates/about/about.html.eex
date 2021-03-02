@@ -14,17 +14,28 @@
   <h3 class="mb-6 text-xl font-mono font-bold text-blue-900 md:text-2xl md:font-extrabold">
   PREGUNTAS FRECUENTES
   </h3>
-  <article class="w-4/5 mb-6">
+  <article class="w-4/5 mb-12">
     <h6 class="font-bold text-blue-900 text-lg mb-2"><i class="fas fa-terminal w-4 mr-4 text-la-green"></i>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit?
+      ¿Qué es Latinas Code Camp?
     </h6>
-    <p class="py-2 px-9 bg-purple-200 rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusamus ab modi quod? Fugit deleniti explicabo ipsa beatae alias voluptatum blanditiis maxime sit nostrum! Ex, quod? Incidunt dignissimos aliquam sapiente.
-    Consequatur, laboriosam nihil! Velit temporibus veritatis cumque quibusdam explicabo, aliquid ullam fugit dolorum pariatur quia. Possimus commodi dolor, cupiditate animi quo eveniet dolore. Nisi adipisci dolorum aliquid, quaerat quos odit!</p>
+    <p class="py-2 px-9 bg-purple-200 rounded">Es un bootcamp de programación web para que las mujeres aprendan a programar desde cero y disminuir un poco la brecha de genero.</p>
   </article>
-    <article class="w-4/5 mb-6">
+  <article class="w-4/5 mb-12">
     <h6 class="font-bold text-blue-900 text-lg mb-2"><i class="fas fa-terminal w-4 mr-4 text-la-green"></i>
-      Lorem ipsum dolor sit amet consectetur adipisicing?
+      ¿Quién puede participar en el bootcamp Latinas Code Camp?
     </h6>
-    <p class="py-2 px-9 bg-purple-200 rounded">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eveniet, beatae accusantium nesciunt vel ex, sunt at vero nemo vitae incidunt earum cupiditate quasi, atque similique. Explicabo rerum vero unde.</p>
+    <p class="py-2 px-9 bg-purple-200 rounded">Exclusivo para personas que se identifiquen como mujeres.</p>
+  </article>
+  <article class="w-4/5 mb-12">
+    <h6 class="font-bold text-blue-900 text-lg mb-2"><i class="fas fa-terminal w-4 mr-4 text-la-green"></i>
+      ¿Tiene algún costo?
+    </h6>
+    <p class="py-2 px-9 bg-purple-200 rounded">No tiene costo, es completamente gratuito.</p>
+  </article>
+  <article class="w-4/5 mb-12">
+    <h6 class="font-bold text-blue-900 text-lg mb-2"><i class="fas fa-terminal w-4 mr-4 text-la-green"></i>
+      ¿Quienes participan en Latinas Code Camp?
+    </h6>
+    <p class="py-2 px-9 bg-purple-200 rounded">Es una iniciativa de Hack Tabasco, TechnoLatinas y RIE Tabasco.</p>
   </article>
 </section>

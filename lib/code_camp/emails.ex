@@ -8,7 +8,7 @@ defmodule CodeCamp.Emails do
     base_email()
     |> subject("Welcome!")
     |> to(email)
-    |> render("welcome.html", title: "Thank you for signing up", preheader: "Thank you for signing up to the app.")
+    |> render("welcome.html", title: "Gracias por registrarte a Latinas Code Camp", preheader: "Gracias por registrarte")
     |> premail()
   end
 

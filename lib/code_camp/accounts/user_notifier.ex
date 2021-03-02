@@ -19,13 +19,13 @@ defmodule CodeCamp.Accounts.UserNotifier do
 
     ==============================
 
-    Hi #{user.email},
+    Hola #{user.email},
 
-    You can confirm your account by visiting the URL below:
+    Puedes confirmar tu cuenta al darle click al enlace a continuación:
 
     #{url}
 
-    If you didn't create an account with us, please ignore this.
+    Si no creaste una cuenta con nosotras, ignora este correo.
 
     ==============================
     """)
@@ -39,13 +39,13 @@ defmodule CodeCamp.Accounts.UserNotifier do
 
     ==============================
 
-    Hi #{user.email},
+    Hola #{user.email},
 
-    You can reset your password by visiting the URL below:
+    Puedes restablecer tu contraseña al darle click al enlace a continuación:
 
     #{url}
 
-    If you didn't request this change, please ignore this.
+    Si no pediste este cambio, ignora este correo.
 
     ==============================
     """)
@@ -59,13 +59,13 @@ defmodule CodeCamp.Accounts.UserNotifier do
 
     ==============================
 
-    Hi #{user.email},
+    Hola #{user.email},
 
-    You can change your email by visiting the URL below:
+    Puedes cambiar tu correo al darle click al enlace a continuación:
 
     #{url}
 
-    If you didn't request this change, please ignore this.
+    Si no pediste este cambio, ignora este correo.
 
     ==============================
     """)
