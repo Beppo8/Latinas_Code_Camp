@@ -35,7 +35,7 @@ defmodule CodeCampWeb.TeacherLive do
 
   def render(assigns) do
     ~L"""
-    <main class="flex w-full mx-auto md:w-3/5 md:mb-14">
+    <main class="flex w-full justify-center mx-auto md:w-3/5 md:mb-14">
       <aside class="w-48 bg-purple-200 py-4 rounded-l border-gray-100 border-r-2">
         <h1 class="pb-6 px-2 text-2xl text-center uppercase font-bold leading-tight text-blue-900">Tus profesores</h1>
         <nav id="nav" class="flex-1 px-2 bg-purple-200">
@@ -64,7 +64,7 @@ defmodule CodeCampWeb.TeacherLive do
             <div class="px-8 py-4">
               <div class="flex flex-wrap items-center justify-between text-base leading-5 font-medium text-gray-500">
                 <div class="flex items-baseline justify-between">
-                  <img class="mr-3 max-h-60 w-auto rounded" src="<%= @selected_teacher.image%>">
+                  <img class="mr-3 w-auto max-h-60 max-w-96  rounded" src="<%= @selected_teacher.image%>">
                   <span>
                     <%=  %>
                   </span>
