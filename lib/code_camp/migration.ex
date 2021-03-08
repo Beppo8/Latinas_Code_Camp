@@ -1,4 +1,4 @@
-defmodule MyApp.ReleaseTasks do
+defmodule CodeCamp.ReleaseTasks do
   @start_apps [
     :crypto,
     :ssl,
