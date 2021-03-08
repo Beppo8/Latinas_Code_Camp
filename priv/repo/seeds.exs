@@ -90,3 +90,12 @@ alias CodeCamp.Teachers.Teacher
 
 }
 |> Repo.insert!()
+%Teacher{
+  image: "/images/profes/manuel.png",
+  name: "Manuel",
+  surname: "Gil",
+  twitter: "imgildev",
+  twitter_link: "https://twitter.com/imgildev",
+
+}
+|> Repo.insert!()
