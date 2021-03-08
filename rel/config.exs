@@ -51,5 +51,10 @@ release :code_camp do
   set applications: [
     :runtime_tools
   ]
-end
 
+  set commands: [
+    "seed": "rel/commands/seed.sh",
+    "migrate": "rel/commands/migrate.sh",
+    "rollback": "rel/commands/rollback.sh",
+  ]
+end
