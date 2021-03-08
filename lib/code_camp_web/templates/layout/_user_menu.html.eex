@@ -1,5 +1,5 @@
 <%= if @current_user do %>
-  <%= link "Ajustes", to: Routes.user_settings_path(@conn, :edit), class: "uppercase text-lg font-bold text-la-green btn btn-sm btn-link hover:text-gray-800" %>
+  <%# <%= link "Ajustes", to: Routes.user_settings_path(@conn, :edit), class: "uppercase text-lg font-bold text-la-green btn btn-sm btn-link hover:text-gray-800" %>
   <%= link "Cerrar sesión", to: Routes.user_session_path(@conn, :delete), method: :delete, class: "uppercase text-lg font-bold text-la-green btn btn-sm btn-link hover:text-gray-800" %>
 <% else %>
   <%= link "Ingresar", to: Routes.user_session_path(@conn, :new), class: "uppercase text-lg font-bold text-la-green btn btn-sm btn-link hover:text-gray-800" %>
