@@ -2,11 +2,11 @@
     <h1 class="mb-6 text-2xl font-mono font-bold leading-tight text-blue-900 md:text-3xl md:font-extrabold">
       ACERCA DE NOSOTRAS
     </h1>
-    <p class="mb-4 text-lg text-gray-800 md:text-xl">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam officiis impedit quisquam velit praesentium expedita neque odio aliquid non minima modi blanditiis, nobis esse debitis cupiditate dolorum saepe eveniet repellat?
-      Delectus omnis impedit voluptate inventore nam animi voluptatibus? Velit vel voluptate beatae vitae magni, a incidunt perspiciatis fuga ratione aspernatur. Molestiae minus nemo ea eveniet et reiciendis aperiam, sunt quia.
-      Nulla, praesentium officiis. Ea ipsam, reprehenderit laboriosam rerum totam, enim saepe similique modi itaque ipsa vero cumque quod autem, corporis rem dolorum! Mollitia quis aspernatur commodi libero modi hic ab!
-      Eius, dolores? Quos saepe quas nobis dolore quidem nam. Excepturi commodi quis, pariatur molestiae tenetur consectetur, perferendis mollitia in quibusdam quas blanditiis accusantium consequuntur unde atque dicta reprehenderit placeat aliquid.
+    <p class="mx-8 mb-4 text-lg text-gray-800 md:text-xl md:mx-20">
+    Latinas Code Camp es una colaboración entre Hack Tabasco, Technolatinas y RIE Tabasco. Buscamos romper la brecha de género y que más mujeres trabajen en la industria tech.
+    <br>
+    <br>
+    Latinas Code Camp nace de un tweet para regalar 11 becas, donde se inscribieron más de 600 chicas. Al ver que eran muchas chicas inscritas planeamos el bootcamp, hicimos convocatoria para invitar a maestrxs a dar las clases y actualmente somos 9 personas del staff,  9 maestrxs,  y 58 chicas que van a romper al mundo.
     </p>
 </main>
 
