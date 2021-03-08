@@ -53,8 +53,8 @@ release :code_camp do
   ]
 
   set commands: [
-    "seed": "rel/commands/seed.sh",
-    "migrate": "rel/commands/migrate.sh",
-    "rollback": "rel/commands/rollback.sh",
+    ":seed": "rel/commands/seed.sh",
+    ":migrate": "rel/commands/migrate.sh",
+    ":rollback": "rel/commands/rollback.sh",
   ]
 end
